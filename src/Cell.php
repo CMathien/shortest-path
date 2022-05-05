@@ -16,7 +16,7 @@ class Cell
 	/**
 	 * Get the value of row
 	 */ 
-	public function getRow():int
+	public function getRow(): int
 	{
 		return $this->row;
 	}
@@ -24,7 +24,7 @@ class Cell
 	/**
 	 * Get the value of column
 	 */ 
-	public function getColumn():int
+	public function getColumn(): int
 	{
 		return $this->column;
 	}
@@ -32,8 +32,21 @@ class Cell
 	/**
 	 * Get the value of open
 	 */ 
-	public function getOpen():bool
+	public function getOpen(): bool
 	{
 		return $this->open;
+	}
+
+
+	/**
+	 * Set the value of open
+	 *
+	 * @return  self
+	 */ 
+	public function setOpen(bool $open): Cell
+	{
+		$this->open = $open;
+
+		return $this;
 	}
 }
