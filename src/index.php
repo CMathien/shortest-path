@@ -2,4 +2,6 @@
 
 require_once "autoload.php";
 
-phpinfo();
+$map = new Map();
+$map->buildMap(5,5);
+var_dump($map->getCells());
