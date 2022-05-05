@@ -13,10 +13,11 @@ class Map
 	}
 
 	/**
-	 * Set the value of cells
+	 * Add a cell to the map
 	 *
-	 * @return  self
-	 */ 
+	 * @param  Cell $cell
+	 * @return Map
+	 */
 	public function addCell(Cell $cell): Map
 	{
 		$this->cells[] = $cell;
