@@ -17,5 +17,6 @@ foreach ($cells as $cell) {
 $path = new Path($map);
 $path->setStart(1,4);
 $path->setEnd(4,3);
-echo $path->displayPathLength();
+$path->getShortestPath($path->getStart());
 $path->displayPath();
+echo "<br>".$path->displayPathLength();
