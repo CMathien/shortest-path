@@ -89,4 +89,46 @@ class Path
 	{
 		
 	}
+
+	/**
+	 * Get the value of pathCells
+	 */ 
+	public function getPathCells(): array
+	{
+		return $this->pathCells;
+	}
+
+	/**
+	 * Display a given path on the map
+	 *
+	 * @return void
+	 */
+	public function displayPath()
+	{
+		$row = 0;
+		foreach ($this->map->getCells() as $cell) {
+			if ($cell->getRow() != $row) {
+				echo PHP_EOL;
+				$row = $cell->getRow();
+			}
+			echo "|";
+			if (($pos = array_search($cell, $this->getPathCells())) !== false) {
+				switch ($pos) {
+					case 0:
+						echo "D";
+						break;
+					case count($this->getPathCells())-1:
+						echo "A";
+						break;
+					default:
+						echo "o";
+						break;
+				}
+			}
+			else {
+				echo "x";
+			}
+			echo "|";
+		}
+	}
 }

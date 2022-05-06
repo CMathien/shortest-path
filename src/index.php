@@ -16,4 +16,6 @@ foreach ($cells as $cell) {
 // Path configuration
 $path = new Path($map);
 $path->setStart(1,4);
+$path->setEnd(4,3);
 echo $path->displayPathLength();
+$path->displayPath();

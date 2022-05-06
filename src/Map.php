@@ -47,15 +47,4 @@ class Map
 		}
 		return $this;
 	}
-	
-	/**
-	 * Display a given path on the map
-	 *
-	 * @param  mixed $path
-	 * @return void
-	 */
-	public function displayPath( $path)
-	{
-
-	}
 }
