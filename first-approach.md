@@ -3,7 +3,9 @@
 1. Analyse du brief et de la version procédurale
 
    La première étape dans le développement du projet est d'analyser le brief et de créer un plan d'action basé sur les objectifs qui ont été spécifiés. Il s'agit précisément de créer une application capable de calculer et d'afficher le chemin le plus court entre 2 points ; sortie et arrivée.
+
    a) Le code est censé analyser le début et la fin du chemin, et calculer la méthode la plus courte pour les atteindre.
+
    b) La sortie est une représentation visuelle de ceci dans un format de tableau 2D.
 
 2. Définir les outils collaboratifs que nous utilisons
