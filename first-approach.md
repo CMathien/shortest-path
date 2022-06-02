@@ -8,7 +8,7 @@
 
    b) La sortie est une représentation visuelle de ceci dans un format de tableau 2D.
 
-2. Définir les outils collaboratifs que nous utilisons
+2. Définir les outils collaboratifs qu'on utilise
 
    Comme il s'agit d'un projet de groupe, des outils collaboratifs sont nécessaires pour travailler efficacement et pour que chaque membre puisse connaître la progression de l'autre. Pour ce projet, GitHub est utilisé pour le partage du code.
    GitHub Projects est utilisé pour gérer la phase de développement du projet, à travers des étapes divisées en ce qui doit être fait, ce qui est en train d'être fait et ce qui a été achevé.
