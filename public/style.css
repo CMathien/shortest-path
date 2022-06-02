@@ -1,0 +1,43 @@
+body{
+    background: rgb(235, 235, 235);
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.body-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 30px;
+}
+.row{
+    display: flex;
+}
+.canvas-cont{
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.main .row:nth-child(1){
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.main .row:nth-child(2){
+    flex-direction: column;
+}
+.image-form{
+    display: flex;
+    flex-direction: column;
+}
+#submit-btn{
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
